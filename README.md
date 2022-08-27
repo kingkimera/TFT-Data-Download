@@ -44,7 +44,7 @@ With the code in hand you’re going to download the above folder (if you haven�
 
 
 
-### Part 3: Finding a starting GameId
+### Part 3: Finding a starting GameID
 
 Technically the code works as it currently stands! Running it will pull games into **downloads/matches/** however it will be pulling random games from patch 12.12 and later. How it works is based off of the game ID put into the **starterID.txt file**. The program will only pull games that happened AFTER the original one in the starter file, so if you put a game from the current patch in, you will only get games from the current patch out. Using the default gameID that I included will included many games from older patches, as it is from patch 12.12. If you’re looking to evaluate older patches, feel free to run it as-is, as the program will sort each patch’s game into a separate folder. 
 
